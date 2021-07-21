@@ -39,7 +39,7 @@
               <span class="badge bg-secondary col-sm-4 m-1">Javascript</span>
               <span class="badge bg-secondary col-sm-2 m-1">Html</span>
               </div>
-              <a href="#" class="btn btn-primary mt-3">Go somewhere</a>
+              <a href="#" type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Go somewhere</a>
             </div>
           </div>
         </div>
@@ -54,7 +54,7 @@
               <span class="badge bg-secondary col-sm-4 m-1">Javascript</span>
               <span class="badge bg-secondary col-sm-2 m-1">Html</span>
               </div>
-              <a href="#" class="btn btn-primary mt-3">Go somewhere</a>
+              <a href="#" type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Go somewhere</a>
             </div>
           </div>
         </div>
@@ -69,7 +69,7 @@
               <span class="badge bg-secondary col-sm-4 m-1">Javascript</span>
               <span class="badge bg-secondary col-sm-2 m-1">Html</span>
               </div>
-              <a href="#" class="btn btn-primary mt-3">Go somewhere</a>
+              <a href="#" type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Go somewhere</a>
             </div>
           </div>
         </div>
@@ -87,7 +87,7 @@
               <span class="badge bg-secondary col-sm-4 m-1">Javascript</span>
               <span class="badge bg-secondary col-sm-2 m-1">Html</span>
               </div>
-              <a href="#" class="btn btn-primary mt-3">Go somewhere</a>
+              <a href="#" type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Go somewhere</a>
             </div>
           </div>
         </div>
@@ -102,7 +102,7 @@
               <span class="badge bg-secondary col-sm-4 m-1">Javascript</span>
               <span class="badge bg-secondary col-sm-2 m-1">Html</span>
               </div>
-              <a href="#" class="btn btn-primary mt-3">Go somewhere</a>
+              <a href="#" type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Go somewhere</a>
             </div>
           </div>
         </div>
@@ -117,7 +117,26 @@
               <span class="badge bg-secondary col-sm-4 m-1">Javascript</span>
               <span class="badge bg-secondary col-sm-2 m-1">Html</span>
               </div>
-              <a href="#" class="btn btn-primary mt-3">Go somewhere</a>
+              <a href="#" type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal  -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
             </div>
           </div>
         </div>
@@ -126,6 +145,24 @@
         <h2 class="display-3">About me</h2>
         <p class="h4"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
           don’t hestiate to contact me.</p>
+      </section>
+      <section class="form mt-5 row justify-content-center">
+        <h3 class="col-sm-4 align-self-center">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
+        <form class="col-sm-6">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"></label>
+            <input type="text" class="form-control" id="user_name" placeholder="Enter your name">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"></label>
+            <input type="email" class="form-control" id="user_email" placeholder="Enter your email">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"></label>
+            <textarea class="form-control" id="user_message" rows="3" placeholder="Enter your text"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </section>
   </main>
 
